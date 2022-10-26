@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+header{
+    background-color: rgb(209, 209, 209);
+    height: 100px;;
+
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+.foto_section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+.foto_section p {
+    text-align: center;
+    font-size: 1.55rem;;
+    line-height: 1.5;
+    padding: 10px;
+    font-weight: 100;
+}
+.vinetas_section {
+    background-color: rgb(209, 209, 209);
+    max-width: 650px;
+}
+.vinetas_section h2 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+ul {
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+li {
+    margin-bottom: 15px;
+}
+.vinetas_section p {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: rgb(209, 209, 209);
+    text-align: center;
+    font-size:  1.5rem;
+    line-height: 1.5;
+}
+
+
